@@ -1,7 +1,5 @@
 """
 ProGNet v8 — Brain Tumor Growth Predictor
-Streamlit Web Application
-Author: Tandra Biswas | IIT, Jahangirnagar University
 """
 import streamlit as st
 
@@ -11,6 +9,13 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+st.markdown("""
+<style>
+[data-testid="stSidebarNav"] {
+    display: none;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ── Global CSS ───────────────────────────────────────────────
 with open("assets/style.css") as f:

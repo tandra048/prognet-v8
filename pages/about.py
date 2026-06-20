@@ -96,14 +96,4 @@ Optimizer: Adam(lr=3e-4, clipnorm=1.0)""", language="text")
             <div style="font-size:12px;color:var(--gray500);line-height:1.5">{d}</div>
         </div>""", unsafe_allow_html=True)
 
-    st.markdown("---")
-    st.markdown("""
-    <div style="background:var(--gray50);border:1px solid var(--gray200);border-radius:10px;
-        padding:16px 20px;font-size:13px;color:var(--gray500)">
-        👩‍💻 <strong style="color:var(--gray900)">Developer: Tandra Biswas</strong> (Exam Roll: 240103)
-        &nbsp;|&nbsp;
-        <strong style="color:var(--gray900)">Supervisor: Mehrin Anannya</strong>, Assistant Professor
-        &nbsp;|&nbsp;
-        Institute of Information Technology, Jahangirnagar University, Savar, Dhaka-1342
-        &nbsp;|&nbsp; November 2025
-    </div>""", unsafe_allow_html=True)
+    

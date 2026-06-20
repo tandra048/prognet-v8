@@ -78,7 +78,5 @@ Dense(64) → Dense(32) → Dense(1)  ← growth rate""", language="text")
     st.markdown("---")
     st.markdown("""
     <div style="text-align:center;padding:12px;color:var(--gray400);font-size:12px">
-        👩‍💻 <strong style="color:var(--gray700)">Tandra Biswas</strong> (Exam Roll: 240103)
-        &nbsp;|&nbsp; Supervisor: <strong style="color:var(--gray700)">Mehrin Anannya</strong>
-        &nbsp;|&nbsp; IIT, Jahangirnagar University
+        👩‍💻 <strong style="color:var(--gray700)">Tandra Biswas</strong> 
     </div>""", unsafe_allow_html=True)
