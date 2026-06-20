@@ -54,17 +54,17 @@ def render():
     with c1:
         st.markdown(f'<div style="font-size:13px;font-weight:600;margin-bottom:6px;color:var(--gray700)">🧠 Original MRI (t{t+1})</div>',
                     unsafe_allow_html=True)
-        st.image(img_pil.resize((280,280), Image.NEAREST), width="stretch")
+        st.image(img_pil.resize((280,280), Image.NEAREST))
 
     with c2:
         st.markdown(f'<div style="font-size:13px;font-weight:600;margin-bottom:6px;color:var(--gray700)">🔥 Grad-CAM Heatmap (t{t+1})</div>',
                     unsafe_allow_html=True)
-        st.image(hm_pil.resize((280,280), Image.NEAREST), width="stretch")
+        st.image(hm_pil.resize((280,280), Image.NEAREST))
 
     with c3:
         st.markdown(f'<div style="font-size:13px;font-weight:600;margin-bottom:6px;color:var(--gray700)">🎯 Overlay (t{t+1})</div>',
                     unsafe_allow_html=True)
-        st.image(ov_pil.resize((280,280), Image.NEAREST), width="stretch")
+        st.image(ov_pil.resize((280,280), Image.NEAREST))
 
     st.markdown("""
     <div style="display:flex;align-items:center;gap:12px;margin:10px 0 20px">
