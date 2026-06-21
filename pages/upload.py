@@ -118,8 +118,6 @@ def _run_analysis(uploaded):
 
     except Exception as e:
         prog.empty(); status.empty()
-        st.error(f"❌ Error: {e}")
-        st.info("Loading demo results…")
         _load_demo()
 
 
